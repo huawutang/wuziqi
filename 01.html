@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex布局</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: azure;
+      }
+      * {
+        border: 1px solid black;
+      }
+      p {
+        background: #41a594;
+      }
+      .one {
+        font-size: 25px;
+        height: 50px;
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        line-height: 50px;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    "
+  >
+    <tuxianglan
+      style="
+        width: 100%;
+        height: 160px;
+        background-color: #eee;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      "
+    >
+      <img src="../billboard8.jpg" alt="测试1" width="120px" height="40px"
+    /></tuxianglan>
+    <p style="color: red" class="one">茅檐低小</p>
+    <p class="one">溪上青青草</p>
+    <p class="one">醉里吴音相媚好</p>
+    <p class="one">白发谁家翁媪</p>
+  </body>
+</html>
